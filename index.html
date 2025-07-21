@@ -1,116 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bimantara Dwiputra | IT Support</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f7f9fc;
-      color: #333;
-    }
-    header {
-      background: #007bff;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      color: #007bff;
-      border-bottom: 2px solid #007bff;
-      padding-bottom: 5px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .contact a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    footer {
-      background: #eaeaea;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #666;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bimantara Dwiputra Purbaya | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">Bimantara</h1>
+        <div class="space-x-4">
+          <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+          <a href="#experience" class="text-gray-700 hover:text-blue-600">Experience</a>
+          <a href="#skills" class="text-gray-700 hover:text-blue-600">Skills</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-<header>
-  <h1>Bimantara Dwiputra Purbaya</h1>
-  <p>Staff IT Support | Sidoarjo, Jawa Timur</p>
-  <p><a href="mailto:bimaa50@gmail.com" style="color:white;">bimaa50@gmail.com</a> | +62 859-5474-5798</p>
-</header>
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white text-center py-20 px-4">
+      <h2 class="text-4xl font-bold mb-2">Bimantara Dwiputra Purbaya</h2>
+      <p class="text-xl">IT Support Specialist | Network Technician | Web Programmer</p>
+      <p class="mt-4">Sidoarjo, Jawa Timur</p>
+      <a href="CV ATS Bima terbaru jan 2025.pdf" download class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-2 rounded shadow hover:bg-blue-100">Download CV</a>
+    </header>
 
-<main>
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I have experience in Information Technology as ICT Helpdesk, IT Support Staff, Web Programmer, and Network Technician. 
-      I am a responsible individual with strong time management, teamwork, and work ethic.
-    </p>
-  </section>
+    <!-- About -->
+    <section id="about" class="max-w-4xl mx-auto px-4 py-12">
+      <h3 class="text-2xl font-semibold text-blue-600 mb-4">About Me</h3>
+      <p>
+        I have solid experience in ICT Helpdesk, IT Support, Web Programming, and Networking. I am responsible, capable of time management, team collaboration, and have a strong work ethic.
+      </p>
+    </section>
 
-  <section>
-    <h2>Work Experience</h2>
-    <ul>
-      <li><strong>ICT Helpdesk</strong> - Lasmono Group (May 2024 – Present)</li>
-      <li><strong>IT Support & Maintenance</strong> - CV. Belia Berkat Abadi (Dec 2023 – May 2024)</li>
-      <li><strong>Freelance IT Support & Technician</strong> (Dec 2022 – Present)</li>
-      <li><strong>IT Support</strong> - PT. Nurma Husada Abadi (Dec 2021 – Dec 2022)</li>
-      <li><strong>Intern Web Programmer</strong> - BALITTAS Malang (Jul 2017 – Sep 2017)</li>
-      <li><strong>Intern Network Technician</strong> - LANGITNET (May 2014 – Jul 2014)</li>
-    </ul>
-  </section>
+    <!-- Experience -->
+    <section id="experience" class="bg-white py-12 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h3 class="text-2xl font-semibold text-blue-600 mb-6">Work Experience</h3>
+        <ul class="space-y-6">
+          <li>
+            <h4 class="font-bold">ICT Helpdesk – Lasmono Group</h4>
+            <p class="text-sm text-gray-500">May 2024 – Present</p>
+            <p>Technical support, troubleshooting, ticketing, user training, vendor coordination, and installation support.</p>
+          </li>
+          <li>
+            <h4 class="font-bold">IT Support – Belia Cosmetic</h4>
+            <p class="text-sm text-gray-500">Dec 2023 – May 2024</p>
+            <p>Network maintenance, PC building, system integration, vendor liaison.</p>
+          </li>
+          <li>
+            <h4 class="font-bold">Freelance IT Support</h4>
+            <p class="text-sm text-gray-500">Dec 2022 – Present</p>
+            <p>Hardware servicing, PC/network setup, website development for clients.</p>
+          </li>
+          <!-- Add more items as needed -->
+        </ul>
+      </div>
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <p><strong>SMKN 3 Buduran</strong> – Sidoarjo, Jawa Timur (2011 – 2014)</p>
-  </section>
+    <!-- Skills -->
+    <section id="skills" class="max-w-4xl mx-auto px-4 py-12">
+      <h3 class="text-2xl font-semibold text-blue-600 mb-4">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-white p-4 rounded shadow">Web Programming</div>
+        <div class="bg-white p-4 rounded shadow">Network Installation</div>
+        <div class="bg-white p-4 rounded shadow">Hardware Maintenance</div>
+        <div class="bg-white p-4 rounded shadow">SIMRS Installation</div>
+        <div class="bg-white p-4 rounded shadow">Microsoft Office</div>
+        <div class="bg-white p-4 rounded shadow">Time Management</div>
+      </div>
+    </section>
 
-  <section>
-    <h2>Certifications</h2>
-    <ul>
-      <li>Web Programming (BNSP)</li>
-      <li>Web Programming (UPT BLK)</li>
-    </ul>
-  </section>
+    <!-- Contact -->
+    <section id="contact" class="bg-white py-12 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-2xl font-semibold text-blue-600 mb-4">Contact</h3>
+        <p>Email: <a href="mailto:bimaa50@gmail.com" class="text-blue-600">bimaa50@gmail.com</a></p>
+        <p>Phone: +62 859-5474-5798</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Microsoft Office, Excel, PowerPoint</li>
-      <li>Web Programming</li>
-      <li>Computer Network Installation (Wired & Wireless)</li>
-      <li>Time Management</li>
-      <li>Network Topology</li>
-      <li>Indonesian (Active), English (Passive)</li>
-    </ul>
-  </section>
-
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:bimaa50@gmail.com">bimaa50@gmail.com</a></p>
-    <p>Phone: +62 859-5474-5798</p>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 Bimantara Dwiputra Purbaya. All rights reserved.
-</footer>
-
-</body>
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center text-sm text-gray-500 py-4">
+      &copy; 2025 Bimantara Dwiputra Purbaya. All rights reserved.
+    </footer>
+  </body>
 </html>
-
